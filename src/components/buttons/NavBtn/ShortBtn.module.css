@@ -1,0 +1,83 @@
+.animatedBtn1 {
+  /* --width: 100px; */
+  --height: 40px;
+  --button-color: #512feb;
+  /* width: var(--width); */
+    width: 50px; 
+  height: var(--height);
+  background: var(--button-color);
+  position: relative;
+  text-align: center;
+  border-radius: 0.45em;
+  font-family: "Arial";
+
+  transition: all ease-in-out 1.3s;
+}
+
+.animatedBtn1::before {
+  position: absolute;
+  font-size: 0.9rem;
+  color: #111;
+  border-radius: 0.25em;
+
+}
+
+.animatedBtn1::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  left: calc(50% - 10px);
+}
+
+.animatedBtn1::after,
+.animatedBtn1::before {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.buttonWrapper,
+.text,
+.icon {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  color: #fff;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  transition: top 0.5s;
+}
+
+.icon {
+  color: #fff;
+  top: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: top 0.5s;
+}
+
+
+
+.animatedBtn1:hover .text {
+  top: -100%;
+}
+
+.animatedBtn1:hover .icon {
+  top: 0;
+}
+
+.animatedBtn1:hover::before,
+.animatedBtn1:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
