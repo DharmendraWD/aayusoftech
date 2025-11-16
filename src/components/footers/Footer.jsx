@@ -67,7 +67,7 @@ const Footer = () => {
   ];
 
   return (
-    <div ref={sectionRef} className="relative text-white py-20 px-6 md:px-40 overflow-hidden">
+    <div ref={sectionRef} className="relative bg-black text-white py-20 px-6 md:px-40 overflow-hidden">
       {/* Narrow Diagonal Gradient Beam */}
       <div
         className="absolute left-1/4 top-1/2 w-[600px] h-[120px] -rotate-[20deg] rounded-full opacity-40"

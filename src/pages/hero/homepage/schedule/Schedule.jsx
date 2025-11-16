@@ -11,7 +11,7 @@ export default function Schedule() {
   return (
     <div
     
-      className="relative flex items-center justify-center py-20 md:py-24  text-white overflow-hidden"
+      className="relative flex bg-black items-center justify-center py-20 md:py-24  text-white overflow-hidden"
     >
       {/* Gradient Glow (under content, non-interactive) */}
  

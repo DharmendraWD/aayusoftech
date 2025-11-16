@@ -5,12 +5,12 @@ import AnimatedBtn1 from "@/components/buttons/AnimatedBtn1";
 
 const Portfolio = () => {
   return (
-    <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12">
+    <div className=" mx-auto px-6 lg:px-8 py-12 bg-black">
       <div className="flex flex-col justify-center items-center gap-y-6 text-white">
         {/* Animated Button */}
 {/* <AnimatedBtn1 text={"Portfolio"}></AnimatedBtn1> */}
 
-        <BorderedHeading text={"Services"}></BorderedHeading>
+        <BorderedHeading text={"Portfolio"}></BorderedHeading>
 
         {/* Animated Heading & Description */}
         <h1 className="text-4xl font-bold text-center text-white animate-text">

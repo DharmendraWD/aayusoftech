@@ -4,7 +4,7 @@ import BorderedHeading from "@/components/heading/BorderedHeading";
 
 const Pricing = () => {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen text-white px-4">
+    <div className="flex flex-col bg-black justify-center items-center min-h-screen text-white px-4">
       {/* Animated Button */}
    <BorderedHeading text={"Plans"}></BorderedHeading>
 

@@ -101,7 +101,7 @@ const Hero = () => {
         </div>
       </section>
       {/* "Who We Are" Separator at the very bottom */}
-      <div className="w-full flex flex-col items-center justify-center pb-8 z-10">
+      <div className="w-full flex flex-col bg-black items-center bg-black justify-center pb-8 z-10">
         <Heading1 text="We are Noloops — helping businesses like yours innovate outside the cycle with cutting-edge web, app, design, and marketing solutions."></Heading1>
       </div>
     </div>

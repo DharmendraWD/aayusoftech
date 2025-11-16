@@ -71,7 +71,7 @@ const Contact = () => {
     "w-full px-4 py-4 bg-gray-800/50 border rounded-xl text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#0099FF] focus:border-[#0099FF]";
 
   return (
-    <div ref={sectionRef} className="min-h-screen text-white px-4 py-16">
+    <div ref={sectionRef} className="min-h-screen bg-black text-white px-4 py-16">
       <motion.div
         className="flex justify-center mb-8"
         variants={headerVariants}

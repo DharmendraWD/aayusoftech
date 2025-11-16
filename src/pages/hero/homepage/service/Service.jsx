@@ -168,7 +168,7 @@ const Media = ({ src, alt }) => (
 
 
   return (
-    <div ref={sectionRef} className="py-20 px-6 md:px-20">
+    <div ref={sectionRef} className="py-20 bg-black px-6 md:px-20">
       <section className="px-4 md:px-8 lg:px-10 xl:px-[40px]">
         <motion.div
           className="flex justify-center mb-16"

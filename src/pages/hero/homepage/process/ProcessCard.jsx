@@ -6,7 +6,7 @@ import BorderedHeading from "@/components/heading/BorderedHeading";
 
 const ProcessCard = () => {
   return (
-    <div className=" py-16 px-4">
+    <div className=" py-16 px-4 bg-black">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <motion.div
